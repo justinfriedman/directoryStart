@@ -34,7 +34,7 @@ a {
 
 .button {
     border: 2px solid #ccc;
-    background-color: #999;
+    background-color: #87ceeb;
     color: #666;
     padding: 6px 13px;
     border-radius: 11px;
@@ -87,7 +87,14 @@ table {
 table tr th {
   border-bottom: 1px solid #999;
 }
-
+tr > td {
+  padding-bottom: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+tr:nth-child(even) {
+    background-color: #FFFFFF;
+}
 /*modal*/
 .modal {
     max-width: 800px;
